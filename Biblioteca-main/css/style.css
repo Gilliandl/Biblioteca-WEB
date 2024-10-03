@@ -1,0 +1,182 @@
+body{
+  background: white;
+  font-family: 'Source Code Pro', monospace;
+  font-style: normal;
+  font-size: 16px;
+  margin: 0px;
+}
+.form-login{
+  border: 2px #2ba5f7 solid;
+  border-radius: 30px;
+  width: 20%;
+  margin-left: 38%;
+  margin-top: 180px;
+}
+.form-login.has-error{
+  border: 2px red solid;
+  border-radius: 30px;
+  width: 20%;
+  margin-left: 38%;
+  margin-top: 180px;
+}
+.bem-vindo {
+  border: 2px #4bb543 solid;
+  border-radius: 30px;
+  width: 20%;
+  padding: 0px 0px 50px 0px;
+  margin-left: 38%;
+  margin-top: 147px;
+}
+.user-painel{
+  margin: 8% 0% 0% 34%;
+  width: 30%;
+  height: 30%;
+}
+.nome-user{
+  font-weight: bold;
+  margin: 0px 10px 44px 0px;
+  text-align: center;
+}
+.user-box {
+  display: flex;
+  border: 1px #2ba5f7 solid;
+  border-radius: 15px;
+  width: 14%;
+  padding: 0px 0px 10px 0px;
+  margin: 5px 0px 0px 510px;
+}
+.img-box {
+  margin: 2% 0% 0% 6%;
+  height: 48px;
+}
+.nome-box {
+  margin: 8% 0% 0% 7%;
+  font-weight: bold;
+}
+.button-box {
+  width: 30px;
+  margin: 40% 0% 0% 20%;
+}
+.button-painel {
+  width: 35px;
+  margin-left: 25px;
+}
+.erro {
+  font-weight: bold;
+  padding: 2px;
+  margin: 18%;
+  background-color: white;
+  color: red;
+}
+.div-erro{
+  margin-top: 10px;
+  margin-left: 360px;
+}
+label{
+  font-weight: normal;
+}
+.logo{
+  height: 50px;
+}
+.logoMenu{
+  float: left;
+  height: 100px;
+}
+.user{
+  width: 30%;
+  height: 30%;
+  margin: 8% 0% 6% 34%;
+}
+.cabecalho{
+  float: left;
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+}
+.cabecalho-index{
+  padding: 10px;
+  margin-bottom: 0px;
+  height: 50px;
+  width: 50px;
+}
+.quebra{
+  clear: left;
+}
+/*MENU.PHP*/
+.menu {
+  margin-top: 25px;
+}
+.link-menu{
+  color: black;
+  margin-left: 10px;
+  border-radius: 3px;
+  background-color: white;
+  text-decoration: none;
+  font-weight: normal;
+}
+.link-menu:hover{
+  color: black;
+  background-color: #E8E8E8;
+  text-decoration: none;
+  font-weight: normal;
+}
+.formulario{
+  padding: 0% 0% 0% 26%;
+  margin-bottom: 30px;
+  padding: 0px;
+  margin-left: 45px;
+  border-radius: 0px;
+  border: 0px solid #2ba5f7;
+}
+header{
+  display: flex;
+  background-color: #ffffff;
+  border: 1px #E8E8E8 solid;
+  padding-bottom: 10px;
+}
+h1{
+  font-size: 22px;
+}
+.tabela{
+  width: 99%;
+  margin-top: 10px;
+  margin-left: 0.5%;
+  padding: 5px;
+  height: 80px;
+  border-collapse: collapse;
+}
+th {
+  text-align: left;
+}
+.tabela thead{
+  background-color: #2ba5f7;
+  color: white;
+}
+.tabela tbody, tr {
+  border-bottom: 1px solid #dddddd;
+}
+p {
+  text-align: center;
+  margin: 0 10px 0px 0px;
+}
+input.entrar {
+  width: 38px;
+}
+a{
+  color: black;
+  margin-left: 10px;
+  border-radius: 15px;
+  background-color: white;
+  text-decoration: none;
+  font-weight: normal;
+}
+form {
+  width: 20%;
+  padding: 20px;
+  margin-left: 500px;
+  border-radius: 15px;
+  border: 1px solid #2ba5f7;
+}
+.capa {
+  width: 70px;
+}
